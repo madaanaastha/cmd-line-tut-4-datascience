@@ -13,9 +13,8 @@
 ```
 ### Getting the data 
 ```
-* Download the data (open data) if available as a file - check terms of use 
+*Get the data across the network
 
-* Download using API(s)
 ```
 
 
