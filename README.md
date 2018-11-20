@@ -12,18 +12,20 @@
 ```
 ### Getting the data across the network
 ```
-* pwd
-* cd tut_data/
-* pwd
-* ls -lh 
+* $ pwd
+* $ cd tut_data/
+* $ pwd
+* $ ls -lh 
 ```
 
 ### Explore the data ###
 ```
-* head fhv_tripdata_2018-06.csv
-* cat fhv_tripdata_2018-06.csv
-* wc -l fhv_tripdata_2018-06.csv
+* $ head fhv_tripdata_2018-06.csv
+* $ cat fhv_tripdata_2018-06.csv
+* $ wc -l fhv_tripdata_2018-06.csv
 ```
+
+### Do you need a DB ?
 
 
 
