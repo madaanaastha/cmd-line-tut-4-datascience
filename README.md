@@ -40,8 +40,8 @@ CREATE TABLE hrcarpark(
 Device” TEXT, 
 DateTime” TEXT,
 CarPlate ” TEXT,
-ActTime TIME, 
-IntervalTime TIME,
+ActTime TEXT, 
+IntervalTime TEXT,
 WeekNumber NUMERIC, 
 DayOfWeek TEXT
 );
