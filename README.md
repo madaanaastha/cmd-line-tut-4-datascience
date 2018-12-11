@@ -37,21 +37,22 @@ Open your own database
 * .open carpark
 * 
 CREATE TABLE hrcarpark(
-"SerialNo" TEXT,
-“Device” TEXT, 
-“DateTime” TEXT,
-“CarPlate ” TEXT,
-“ActTime” TIME, 
-“IntervalTime” TIME,
-“WeekNumber” NUMERIC, 
-“DayOfWeek” TEXT
+Device” TEXT, 
+DateTime” TEXT,
+CarPlate ” TEXT,
+ActTime TIME, 
+IntervalTime TIME,
+WeekNumber NUMERIC, 
+DayOfWeek TEXT
 );
 * open a new tab for terminal
 * sed -i '' 1d HR_car_park.csv
 * In the sqlite3> prompt
 * .import HR_car_park.csv hrcarpark
 * .schema hrcarpark
-* SELECT COUNT(SerialNo) FROM hrcarpark;
+* SELECT COUNT(*) FROM hrcarpark;
+* SELECT count(DISTINCT(CarPlate)) FROM hrcarpark;
+* 
 * back to the terminal prompt
 * grep '2018-08-[0-9]*' HR_car_park.csv > august_cars.csv
 * wc -l august_cars.csv
